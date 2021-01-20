@@ -16,7 +16,7 @@ const StripeCheckoutButton = ({ price }) => {
             name='CROWN Clothing Ltd.'
             billingAddress
             shippingAddress
-            description={`Your total is ₦${price}`}
+            description={`Your total is $${price}`}
             amount={priceForStripe}
             panelLabel='Pay Now'
             token={onToken}
