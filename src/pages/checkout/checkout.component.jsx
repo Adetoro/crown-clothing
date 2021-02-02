@@ -35,7 +35,7 @@ const CheckoutPage = ({cartItems, total}) => (
         }
 
         <div className='total'>
-            <span>TOTAL:₦{total}</span>
+            <span>TOTAL:${total}</span>
         </div>
         <div className='test-warning'>
             *Please use the following test credit card for payments* <br/>
